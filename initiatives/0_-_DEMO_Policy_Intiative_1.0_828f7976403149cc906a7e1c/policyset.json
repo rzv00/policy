@@ -1,0 +1,76 @@
+{
+ "properties": {
+  "displayName": "0 - DEMO Policy Intiative 1.0",
+  "policyType": "Custom",
+  "description": "This is a test to see if it works.",
+  "metadata": {
+   "category": "Security Center",
+   "version": "1.0",
+   "createdBy": "30544829-11f2-4b51-8020-2293b1774703",
+   "createdOn": "2021-07-29T17:46:37.0089427Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual machines should encrypt temp disks, caches, and data flows between Compute and Storage resou_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0961003e-5a0a-4549-abde-af6a37f2724d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Adaptive network hardening recommendations should be applied on internet facing virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/08e6af2d-db70-460a-bfe9-d5bd474ba9d6",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Endpoint protection solution should be installed on virtual machine scale sets_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/26a828e1-e88f-464e-bbb3-c134a282b9de",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Virtual machines should be migrated to new Azure Resource Manager resources_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1d84d5fb-01f6-4d12-ba4f-4a26081d403d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Dependency agent should be enabled for listed virtual machine images_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/11ac78e3-31bc-4f0c-8434-37ab963cea07",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "A vulnerability assessment solution should be enabled on your virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/501541f7-f7e7-4cd6-868c-4190fdad3ac9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Deploy Dependency agent for Linux virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4da21710-ce6f-4e06-8cdb-5cc4c93ffbee",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/9de21bcb-dce0-4f42-ba82-1d194b8d2eb8/providers/Microsoft.Authorization/policySetDefinitions/828f7976403149cc906a7e1c",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "828f7976403149cc906a7e1c"
+}
