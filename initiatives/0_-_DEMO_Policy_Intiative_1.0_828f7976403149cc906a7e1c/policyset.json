@@ -4,13 +4,8 @@
   "policyType": "Custom",
   "description": "This is a test to see if it works.",
   "metadata": {
-   "category": "Security Center",
-   "version": "1.0",
-   "createdBy": "30544829-11f2-4b51-8020-2293b1774703",
-   "createdOn": "2021-07-29T17:46:37.0089427Z",
-   "updatedBy": null,
-   "updatedOn": null
-  },
+   "ASC": "true"
+   },
   "parameters": {},
   "policyDefinitions": [
    {
